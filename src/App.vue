@@ -8,6 +8,17 @@
   </div>
 </template>
 
+<template>
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/purchase">購入</router-link> <!-- 購入ビューを追加 -->
+    </nav>
+    <router-view/>
+  </div>
+</template>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
