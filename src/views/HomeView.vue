@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <v-container>
+    <ProductList />
+  </v-container>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import ProductList from '@/components/ProductList.vue' //ProductList.vueをインポート
 
   export default {
     name: 'HomeView',
 
     components: {
-      HelloWorld,
+      ProductList,
     },
   }
 </script>
